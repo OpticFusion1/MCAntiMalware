@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: "[FEATURE REQUEST]"
-labels: enhancement, help wanted
+labels: 'help wanted, type: feature'
 assignees: OpticFusion1
 
 ---
