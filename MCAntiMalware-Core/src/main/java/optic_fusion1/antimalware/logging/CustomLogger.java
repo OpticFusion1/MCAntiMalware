@@ -234,7 +234,7 @@ public class CustomLogger {
         } catch (IOException ex) {
             ex.printStackTrace();
         }
-        try ( ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zipFile))) {
+        try (ZipOutputStream out = new ZipOutputStream(new FileOutputStream(zipFile))) {
             ZipEntry entry = new ZipEntry(file.getPath());
             out.putNextEntry(entry);
             out.write(Files.readAllBytes(file.toPath()));
